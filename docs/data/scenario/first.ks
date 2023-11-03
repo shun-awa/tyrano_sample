@@ -1,11 +1,11 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="走れないメロス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「走れないメロス」[l][r]
 
 メロスは激怒した。[l][r]
 
@@ -16,7 +16,7 @@
 ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
 メロスは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
+[link target=*tag_sleep] →歩く [endlink][r]
 [link target=*tag_run] →走る [endlink][r]
 [s]
 
@@ -24,10 +24,10 @@
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=walk.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+メロスは冷静に歩いた。[l][r]
+日没が訪れた。[r]
 
 【 BAD END 】[l][cm]
 
@@ -39,8 +39,8 @@
 
 [cm]
 メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは息切れした。間に合わなかった。[r]
 
-【 GOOD END 】[l][cm]
+【 BAD END 】[l][cm]
 
 [jump target=*start]
